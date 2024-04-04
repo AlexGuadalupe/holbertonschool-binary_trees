@@ -3,7 +3,6 @@
  * binary_tree_postorder- use post-order traversal
  * @tree: pointer to root node
  * @func: pointer to function call
- * Return: nothing if NULL
  */
 void binary_tree_postorder(const binary_tree_t *tree, void (*func)(int))
 {
